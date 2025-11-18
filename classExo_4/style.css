@@ -1,0 +1,45 @@
+.rapidStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#countriesList {
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    font-family: 'Lucida Sans', sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+#userCountry {
+    font-size: 18px;
+    padding: 5px 10px;
+    width: 40%;
+    padding-left: 35px;
+    outline: none;
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px solid #C4D1EB;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 0px #E2E2E2;
+    transition: .3s ease;
+}
+
+#userCountry:focus {
+    background: #F2F2F2;
+    border: 1px solid #5A7EC7;
+    border-radius: 10px;
+}
+
+#userCountry::placeholder {
+    color: #DDDDDD;
+}

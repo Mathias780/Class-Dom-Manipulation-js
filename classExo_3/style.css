@@ -1,0 +1,52 @@
+.placeholder-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1600px;
+    height: 1600px;
+    border-radius: 15px;
+    border: 4px black solid;
+    margin-block: 2rem;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rapidStyle {
+    display: flex;
+    margin-block: 5rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container {
+    width: 800px;
+    height: 800px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.img_sup {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.img:hover {
+    border: 5px red solid;
+}
