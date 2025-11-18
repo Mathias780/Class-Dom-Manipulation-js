@@ -1,7 +1,7 @@
 // Get elements
-let countryList = document.getElementById("countriesList")
-let userInput = document.getElementById("userCountry")
-let countries = countryList.getElementsByTagName("li")
+let countryList = document.getElementById("countriesList") // ul 
+let userInput = document.getElementById("userCountry") // input
+let countries = countryList.getElementsByTagName("li") // li
 
 
 // listen to input each type

@@ -5,6 +5,12 @@
     flex-direction: column;
 }
 
+h1 {
+    font-size: 3rem;
+    font-family: 'Lucida Sans', sans-serif;
+    
+}
+
 #countriesList {
     background-color: blueviolet;
     border-radius: 20px;
